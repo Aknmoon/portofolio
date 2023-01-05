@@ -7,6 +7,7 @@ $product_obj = new Product;
 
 $product_list = $product_obj->displayAllCandleProducts();
 
+echo "hello";
 ?>
 
 
