@@ -1,0 +1,86 @@
+.free_Box{
+    width:600px;
+    height:300px;
+    display:table-cell;
+    text-align:center;
+    border:#F70841 1px solid;
+    line-height: 300px;
+    
+  }
+  
+  .free_Box img{
+    width: 50%;
+    height: auto;
+    /* vertical-align:middle; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+
+
+
+
+
+  /* 3 Ads area */
+.ads {
+  /* width: 85%; */
+  width: 90%;
+  margin: 4em auto;
+  overflow: auto;
+}
+
+.ads-item {
+  /* width: 48.5%; */
+  width: 45%;
+  height: 350px;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 3%;
+  position: relative;
+  
+}
+
+img{
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+}
+.ads-item-image {
+  margin-right: 3%;
+  
+  /* background-image: url(../images/ads-img1.jpg); */
+  
+}
+
+/* .ads-item2 {
+  background-image: url(../images/ads-img2.jpg);
+} */
+
+.ads-text {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+}
+
+.ads-text h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 3px 3px 6px #312a26;
+  line-height: 1.2em;
+}
+
+.ads-text a {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 1em;
+  text-shadow: 3px 3px 6px #312a26;
+}
